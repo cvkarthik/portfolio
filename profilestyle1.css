@@ -1,0 +1,42 @@
+body{
+	background-color: gray;
+}
+header{
+	overflow: auto;
+	background-color: orange;
+}
+nav{
+	margin:0px;
+	width: 100%;
+	background-color: #212927b0;
+	position: fixed;
+	display: block;
+	border: 1px dashed white;
+	padding: 10px 3px;
+}
+#first{
+	padding-left: 50px;
+}
+.home{
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.greet{
+    color:white;
+    padding:30rem 0rem  30rem 10rem;
+    font-size: 200%;
+}
+
+nav a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 40px;
+}
+nav a:hover{
+	color: orange;
+	background-color: white;
+	padding: 20px 40px;
+}
