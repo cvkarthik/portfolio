@@ -1,14 +1,14 @@
 body{
 	background-color: gray;
+	margin: 0;
 }
 header{
 	overflow: auto;
-	background-color: orange;
 }
 nav{
 	margin:0px;
 	width: 100%;
-	background-color: #212927b0;
+	background-color: #212927;
 	position: fixed;
 	display: block;
 	border: 1px dashed white;
@@ -18,17 +18,23 @@ nav{
 	padding-left: 50px;
 }
 .home{
+	overflow: auto;
+	margin: 0rem;
 	background: #00B4DB;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.greet{
+#greet{
+	float: left;
     color:white;
-    padding:30rem 0rem  30rem 10rem;
-    font-size: 200%;
+    /*padding: 8rem 0rem 0rem 60rem;*/
+    padding: 15rem 0rem  0rem 5rem;
+    font-size: 40px;
 }
-
+#maingreet{
+	font-size: 60px;
+}
 nav a{
 	font-size: 20px;
 	color: white;
@@ -37,6 +43,30 @@ nav a{
 }
 nav a:hover{
 	color: orange;
-	background-color: white;
+	background-color: #222831;
+	/*
+	background-color:  #a8ff78; 
+  	background-color: -webkit-linear-gradient(to right, #a8ff78, #78ffd6); 
+  	background-color: linear-gradient(to right, #a8ff78, #78ffd6);*/
 	padding: 20px 40px;
 }
+#divgreet{
+	padding: 10px 0px 15px 0px;
+	height: 482px;
+	width: 38.2%;
+	float: left;
+}
+#imgdiv{
+	overflow: hidden;
+	height: 500px;
+	width: 60%;
+	border: 2px solid orange;
+	display: inline-block;
+	float: left;
+}
+#mypic{
+	padding: 2.75rem 2rem 0rem 0rem;
+	height: 100%;
+	width: 100%;
+}
+
