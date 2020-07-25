@@ -97,3 +97,27 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 .fab:hover{
 	color: orange;
 }
+.about_me{
+	overflow: auto;
+	margin: 0px;
+	background-color: white;
+}
+#heading{
+	margin-top: 8px;
+	margin-bottom: 12px;
+	text-align: center;
+	color: black;
+	font-weight: 150;
+	font-size: 50px;
+}
+.divmatter{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#matter{
+	color: black;
+	font-size: 30px;
+	margin-block-start:1px;
+	margin-block-end:1px;
+}
+
