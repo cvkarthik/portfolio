@@ -15,7 +15,7 @@ nav{
 	padding: 10px 3px;
 }
 #first{
-	margin-left: 360px;
+	margin-left: 330px;
 	
 }
 .home{
@@ -88,6 +88,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 .fab
 {
 	color: white;
+	transition-duration: 0.5s;
 }
 #links >li
 {
@@ -96,28 +97,71 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 }
 .fab:hover{
 	color: orange;
+	transform: rotate(350deg);
 }
 .about_me{
 	overflow: auto;
 	margin: 0px;
-	background-color: white;
+	background-color: rgba(255,255,255,0.7);
+	color: rgba(0,0,0,0.5);
+}
+.about_me:hover{
+	background-color: rgba(255,255,255,1);
 }
 #heading{
 	margin-top: 8px;
 	margin-bottom: 12px;
-	text-align: center;
-	color: black;
+	margin-left: 43%;
+	color: #000000;
 	font-weight: 150;
-	font-size: 50px;
+	font-size: 40px;
 }
 .divmatter{
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 #matter{
-	color: black;
-	font-size: 30px;
+	color: rgba(0,0,0,0.5);
+	line-height: 36px;
+	font-size: 20px;
 	margin-block-start:1px;
 	margin-block-end:1px;
 }
+#matter:hover{
+	color: rgba(0,0,0,1);
+}
+#skillsheader{
+	color: #ffffff;
+	margin-top: 8px;
+	margin-bottom: 12px;
+	margin-left: 43%;
+	font-weight: 150;
+	font-size: 40px;
+}
+#skills{
+	margin:0;
+	overflow: auto;
+	background-color: #f7f7f7;
+	color: #343a40;
+}
 
+
+
+.space{
+
+    /* Pass a comma separated list of backgrounds: */
+    background:url('https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/rocket_big.png') no-repeat center 70px, url('https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/space.jpg') no-repeat bottom center;
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+
+    border-radius:3px;
+
+    /* Animate the positions of both of the backgrounds */
+    transition:background-position 1s;
+}
+
+.space:hover{
+    /* The same goes for properties like background-position and repeat */
+    background-position:35% 20px, top right;
+}
