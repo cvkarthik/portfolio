@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #343a40;
+}
+main{
+	background-color: #000000;
+}
+#title{
+	color: #ffffff;
+}
+#heading{
+	text-align: center;
+}
+p{
+	color: #ffffff;
+}
+.title{
+	text-align: center;
+}

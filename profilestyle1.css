@@ -130,11 +130,13 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 #matter:hover{
 	color: rgba(0,0,0,1);
 }
+#skillsheaddiv{
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
 #skillsheader{
 	color: #ffffff;
-	margin-top: 8px;
-	margin-bottom: 12px;
-	margin-left: 43%;
 	font-weight: 150;
 	font-size: 40px;
 }
@@ -148,7 +150,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 	border: 2px solid orange;
 }
 .skillsdiv{
-	margin:30px 70px;
+	margin:2px 70px;
     display: inline-block;
     transition-property: all;
     transition-delay: 0ms;
@@ -156,15 +158,9 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 	padding-left: 100px;
 }
 
-.1d{
-	border: 2px solid white;
-	text-align: center;
-	padding-left: 100px;
-}
-.2d{
-	border: 2px solid white;
-}
 #learning{
+	margin-top: 0px;
+	margin-bottom: 5px;
 	text-align: center;
 }
 
