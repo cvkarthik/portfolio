@@ -97,7 +97,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 }
 .fab:hover{
 	color: orange;
-	transform: rotate(350deg);
+	transform: rotate(360deg);
 }
 .about_me{
 	overflow: auto;
@@ -138,14 +138,35 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 	font-weight: 150;
 	font-size: 40px;
 }
+/*#343a40*/
 #skills{
 	margin:0;
 	overflow: auto;
-	background-color: #f7f7f7;
-	color: #343a40;
+	background-color: #191a1d;
+	color: #ffffff;
+	font-size: 20px;
+	border: 2px solid orange;
+}
+.skillsdiv{
+	margin:30px 70px;
+    display: inline-block;
+    transition-property: all;
+    transition-delay: 0ms;
+    transition-duration: 0.5s;
+	padding-left: 100px;
 }
 
-
+.1d{
+	border: 2px solid white;
+	text-align: center;
+	padding-left: 100px;
+}
+.2d{
+	border: 2px solid white;
+}
+#learning{
+	text-align: center;
+}
 
 .space{
 
@@ -154,9 +175,8 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
     width:200px;
     height:200px;
     margin: 0 auto;
-
+    border: 20px solid #ffffff;
     border-radius:3px;
-
     /* Animate the positions of both of the backgrounds */
     transition:background-position 1s;
 }
