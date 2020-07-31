@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	margin: 0px;
 	padding: 0px;
@@ -17,4 +18,25 @@ p{
 }
 .title{
 	text-align: center;
+=======
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #343a40;
+}
+main{
+	background-color: #000000;
+}
+#title{
+	color: #ffffff;
+}
+#heading{
+	text-align: center;
+}
+p{
+	color: #ffffff;
+}
+.title{
+	text-align: center;
+>>>>>>> ee16b2f40c5b51d79f46b73c5a51781239deb980
 }
