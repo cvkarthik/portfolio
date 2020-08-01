@@ -1,0 +1,62 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #343a40;
+}
+h1{
+	text-align: center;
+	color: #ffffff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: 100;
+}
+#resume{
+	background-color: #ffffff;
+	margin-left: 15%;
+	padding-top: 10px;
+	margin-top: 28px;
+	height: 150px;
+	width: 20%;
+	float: left;
+	display: inline-block;
+	border: 5px solid orange;
+}
+#resume:hover ,#contacts:hover ,#contacts1:hover{
+	box-shadow: 0px 3px 0px 0px #3dc9;
+	-webkit-box-shadow: 0px 3px 0px 0px #3dc9;
+	-moz-box-shadow: 0px 3px 0px 0px #3dc9;
+	-webkit-transform: translate(0, -15px);
+	-ms-transform: translate(0, -15px);
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+#resume p{
+	text-align: center;
+	font-size: 20px;
+}
+#contacts, #contacts1{
+	background-color: #ffffff;
+	margin-left: 15%; 
+	margin-top: 28px;
+	padding-top: 10px;
+	width: 20%;
+	height: 150px;
+	display: inline-block;
+	border: 5px solid orange;
+}
+#contacts p{
+	text-align: center;
+}
+#contacts a{
+	text-decoration: none;
+	color: blue;
+}
+#contacts1 p{
+	text-align: center;
+}
+#contacts1 a{
+	text-decoration: none;
+	color: blue;
+}
